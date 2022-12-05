@@ -12,3 +12,8 @@ Here are the links you will need throughout lesson 1, don't open them until told
 3. [cout cin](https://replit.com/@chaitran77/InsignificantPotableScientificcomputing#main.cpp)
 
 4. [Exercises to work through](https://www.codecademy.com/resources/blog/c-plus-plus-code-challenges-for-beginners)
+
+## Lesson 2 - working with Arduinos
+Same instructions as above
+
+1. 

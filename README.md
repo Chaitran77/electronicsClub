@@ -16,4 +16,4 @@ Here are the links you will need throughout lesson 1, don't open them until told
 ## Lesson 2 - working with Arduinos
 Same instructions as above
 
-1. [Solution] (https://github.com/Chaitran77/electronicsClub/blob/main/photoresistorRelaySwitching.ino)
+1. [Solution](https://github.com/Chaitran77/electronicsClub/blob/main/photoresistorRelaySwitching.ino)

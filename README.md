@@ -16,7 +16,7 @@ Here are the links you will need throughout lesson 1, don't open them until told
 ## Lesson 2 - working with Arduinos
 Same instructions as above. Don't worry if you're new to programming, let me know and I'll guide you through it. You can use the above links to obtain the basic syntax from. I can also provide you with the powerpoint for that lesson.
 
-(https://github.com/Chaitran77/electronicsClub/blob/main/circuitDiagram.png)
+[](https://github.com/Chaitran77/electronicsClub/blob/main/circuitDiagram.png)
 
 Open the Arduino IDE (2.0.x) and create a new sketch. Start collecting the components for the first task.
 

@@ -3,6 +3,7 @@ int volInput = A1;
 int soundOutput = 5;
 
 int currentFrequency = 0; // Hz
+float currentPeriod = 0; // ms
 int maxFrequency = 5000;
 
 void setup() {
@@ -14,9 +15,15 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  currentFrequency = (analogRead(freqInput)/1024.0) * maxFrequency;
-  analogWrite(soundOutput, currentFrequency);
-  delay(500);
+  while (true) {
+    currentFrequency = (analogRead(freqInput)/1024.0) * maxFrequency;
+    currentPeriod = 500.0/currentFrequency;
+    delay(currentPeriod);
+    Serial.println(currentPeriod);
+    digitalWrite(5, LOW);
+    delay(currentPeriod);
+    digitalWrite(5, HIGH);
+  }
 
-  Serial.println(currentFrequency);
+  
 }
